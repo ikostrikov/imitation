@@ -1,13 +1,13 @@
 tasks:
   - name: hopper
     env: Hopper-v1
-    policy: expert_policies/modern/log_Hopper-v1_4.h5/snapshots/iter0000500
+    policy: expert_policies/modern/log_Hopper-v0_3.h5/snapshots/iter0000500
     data_subsamp_freq: 20
     cuts_off_on_success: false
 
   - name: walker
     env: Walker2d-v1
-    policy: expert_policies/modern/log_Walker2d-v1_1.h5/snapshots/iter0000500
+    policy: expert_policies/modern/walker_eb5b2e_1.h5/snapshots/iter0000480
     data_subsamp_freq: 20
     cuts_off_on_success: false
 
@@ -19,7 +19,7 @@ tasks:
 
   - name: halfcheetah
     env: HalfCheetah-v1
-    policy: expert_policies/modern/log_HalfCheetah-v1_2.h5/snapshots/iter0000500
+    policy: expert_policies/modern/log_HalfCheetah-v0_2.h5/snapshots/iter0000500
     data_subsamp_freq: 20
     cuts_off_on_success: false
 
